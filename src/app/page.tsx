@@ -1,5 +1,6 @@
 import FeaturedCourses from '@/components/FeaturedCourses'
 import HeroSection from '@/components/HeroSection'
+import TestimonialCard from '@/components/TestimonialCard'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import React from 'react'
 
@@ -10,6 +11,7 @@ export default function page() {
       <HeroSection/>
       <FeaturedCourses/>
       <WhyChooseUs/>
+      <TestimonialCard/>
     </main>
   )
 }
