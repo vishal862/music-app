@@ -1,5 +1,6 @@
 import FeaturedCourses from '@/components/FeaturedCourses'
 import HeroSection from '@/components/HeroSection'
+import WhyChooseUs from '@/components/WhyChooseUs'
 import React from 'react'
 
 export default function page() {
@@ -8,6 +9,7 @@ export default function page() {
       <div className='text-center'></div>
       <HeroSection/>
       <FeaturedCourses/>
+      <WhyChooseUs/>
     </main>
   )
 }
