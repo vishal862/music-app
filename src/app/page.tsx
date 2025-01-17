@@ -1,6 +1,7 @@
 import FeaturedCourses from '@/components/FeaturedCourses'
 import HeroSection from '@/components/HeroSection'
 import TestimonialCard from '@/components/TestimonialCard'
+import UpcomingWebinars from '@/components/UpcomingWebinars'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import React from 'react'
 
@@ -12,6 +13,7 @@ export default function page() {
       <FeaturedCourses/>
       <WhyChooseUs/>
       <TestimonialCard/>
+      <UpcomingWebinars/>
     </main>
   )
 }
